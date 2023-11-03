@@ -1,0 +1,46 @@
+.title {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(112, 124, 145);
+    font-size: 25px;
+}
+.mainContainer{
+    background-color: rgb(175, 179, 213);
+    width: 400px;
+    height: 800px;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.flexStart {
+    display: flex;
+    justify-content: flex-start;
+}
+.flexEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+.flexCenter {
+    display: flex;
+    justify-content: center;
+}
+.spaceAround {
+    display: flex;
+    justify-content: space-around;
+}
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+.alignItemsFlexEnd{
+    display: flex;
+    align-items: flex-end;
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+}
