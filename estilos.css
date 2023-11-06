@@ -6,8 +6,10 @@
 }
 .mainContainer{
     background-color: rgb(175, 179, 213);
-    width: 400px;
-    height: 800px;
+    width: 800px;
+    height: 350px;
+    margin: 25px, 25px, 25px, 25px;
+    padding: 25px,25px, 25px, 25px;
 }
 .description {
     display: flex;
@@ -44,3 +46,19 @@
     height: 100px;
     background-color: beige;
 }
+.JusContAligItm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.JusContAligItm {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.flexDirectionRowReverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
