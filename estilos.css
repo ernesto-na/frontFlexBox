@@ -1,3 +1,16 @@
+.navigationBar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(112, 124, 145);
+    font-size: 25px;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+    height: 25px;
+    background-color: rgb(112, 124, 145);
+}
 .title {
     display: flex;
     justify-content: center;
@@ -7,7 +20,7 @@
 .mainContainer{
     background-color: rgb(175, 179, 213);
     width: 800px;
-    height: 350px;
+    height: 1200px;
     margin: 25px, 25px, 25px, 25px;
     padding: 25px,25px, 25px, 25px;
 }
@@ -39,26 +52,70 @@
     display: flex;
     justify-content: space-between;
 }
+/* segunda vista*/
+.alignItemsFlexStart{
+    display: flex;
+    align-items: flex-start;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(24, 16, 75);
+}
 .alignItemsFlexEnd{
     display: flex;
     align-items: flex-end;
-    width: 100px;
+    width: 200px;
     height: 100px;
-    background-color: beige;
+    background-color:rgb(24, 16, 75);
 }
 .JusContAligItm {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color:rgb(24, 16, 75);
 }
-.JusContAligItm {
+.JusContAligItmSpaceAround {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    background-color:rgb(24, 16, 75);
+}
+.baseLine{
+    display:flex;
+    align-items: baseline;
+    width: 600px;
+    height: 50px;
+    background-color:rgb(24, 16, 75);
+}
+.stretch{
+    display:flex;
+    align-items: stretch;
+    width: 600px;
+    height: 70px;
+    background-color:rgb(24, 16, 75);
 }
 
+/* termina segunda vista*/
+/*tercera vista*/
+.flexDirectionRow {
+    display: flex;
+    flex-direction: row;
+}
 .flexDirectionRowReverse {
     display: flex;
     flex-direction: row-reverse;
 }
+.flexDirectionColumn {
+    display: flex;
+    flex-direction: column;
+}
+.flexDirectionColumnReverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/*termina tercera vista*/
 
